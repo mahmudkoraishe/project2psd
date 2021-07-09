@@ -1,0 +1,120 @@
+
+body{
+	font-family: PlayfairDisplay-Regular ;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+}@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}@font-face{
+	font-family: Inconsolata-Regular;
+	src: url(../fonts/Inconsolata/static/Inconsolata-Regular.ttf);
+}@font-face{
+	font-family: Ubuntu-Light;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+/*header starts*/
+
+header{
+	margin-bottom: 50px;
+
+}
+header .container{
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+header .container .logo{
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 16px;
+	margin-bottom: 16px;
+
+}
+header .container .menu{
+	/*border: 1px solid red;*/
+	float: right;
+}
+header .container .menu ul{
+	/*border: 1px solid green;*/
+	float: right;
+}
+header .container .menu ul li{
+	list-style: none;
+	float: left;
+}
+header .container .menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0 60px;
+	color: #626262;
+	
+}
+
+header .container .menu ul li:last-child a{
+	margin-right: 0;	
+}
+header .container .menu ul li a:hover{
+	color: #000000;
+	:
+	
+}
+/*header ends*/
+
+
+
+/*banner starts*/
+.banner{
+	/*border: 1px solid black;*/
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.banner img{
+	width: 100%;
+}
+/*banner ends*/
+
+
+
+/*para starts*/
+.para{
+	/*border: 1px solid black;*/
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.para h2{
+	font-family: Ubuntu-Light ;
+	font-size:16px ;
+	font-weight: 400;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.para h1{
+	font-size: 30px;
+	font-weight: 550;
+}
+.para p{
+	font-size: 14pt;
+}
+/*para ends*/
